@@ -26,7 +26,7 @@ class CuentasSmtpSeeder extends Seeder
                 'encriptacion'     => 'ssl', // Validado por el ENUM
                 'usuario'          => 'sistemas@serviciosespecializadoswladi.com',
                 // IMPORTANTE: La contraseña siempre debe insertarse encriptada
-                'password'         => Crypt::encryptString('/p6Asi?rsny'),
+                'password'         => Crypt::encryptString('mypass'),
                 'email_remitente'  => 'sistemas@serviciosespecializadoswladi.com',
                 'nombre_remitente' => 'Sistema Notificaciones Dev',
             ],
